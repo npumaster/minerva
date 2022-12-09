@@ -12,10 +12,6 @@ Featureset
 - HTTP RPC API (`/api/v0`) to access and control the daemon
 - IPFS's internal Webgui can be used to manage the Kubo nodes
 
-### Other implementations
-
-See [List](https://docs.ipfs.tech/basics/ipfs-implementations/)
-
 ## What is IPFS?
 
 IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from previous systems such as Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single BitTorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built-in. You can also mount the world at /ipfs.
