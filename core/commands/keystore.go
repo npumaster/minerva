@@ -15,15 +15,15 @@ import (
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	keystore "github.com/ipfs/go-ipfs-keystore"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
-	oldcmds "github.com/ipfs/kubo/commands"
-	config "github.com/ipfs/kubo/config"
-	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/core/commands/e"
-	ke "github.com/ipfs/kubo/core/commands/keyencode"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
-	migrations "github.com/ipfs/kubo/repo/fsrepo/migrations"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	peer "github.com/libp2p/go-libp2p/core/peer"
+	oldcmds "github.com/npumaster/minerva/commands"
+	config "github.com/npumaster/minerva/config"
+	cmdenv "github.com/npumaster/minerva/core/commands/cmdenv"
+	"github.com/npumaster/minerva/core/commands/e"
+	ke "github.com/npumaster/minerva/core/commands/keyencode"
+	fsrepo "github.com/npumaster/minerva/repo/fsrepo"
+	migrations "github.com/npumaster/minerva/repo/fsrepo/migrations"
 )
 
 var KeyCmd = &cmds.Command{

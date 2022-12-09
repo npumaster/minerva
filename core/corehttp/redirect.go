@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/http"
 
-	core "github.com/ipfs/kubo/core"
+	core "github.com/npumaster/minerva/core"
 )
 
 func RedirectOption(path string, redirect string) ServeOption {

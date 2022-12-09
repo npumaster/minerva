@@ -5,8 +5,6 @@ import (
 	"time"
 
 	"github.com/ipfs/go-datastore"
-	"github.com/ipfs/kubo/config"
-	irouting "github.com/ipfs/kubo/routing"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	dual "github.com/libp2p/go-libp2p-kad-dht/dual"
 	record "github.com/libp2p/go-libp2p-record"
@@ -14,6 +12,8 @@ import (
 	host "github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	routing "github.com/libp2p/go-libp2p/core/routing"
+	"github.com/npumaster/minerva/config"
+	irouting "github.com/npumaster/minerva/routing"
 )
 
 type RoutingOption func(
@@ -26,7 +26,7 @@ type RoutingOption func(
 
 // Default HTTP routers used in parallel to DHT when Routing.Type = "auto"
 var defaultHTTPRouters = []string{
-	"https://cid.contact", // https://github.com/ipfs/kubo/issues/9422#issuecomment-1338142084
+	"https://cid.contact", // https://github.com/npumaster/minerva/issues/9422#issuecomment-1338142084
 	// TODO: add an independent router from Cloudflare
 }
 
@@ -57,7 +57,7 @@ func ConstructDefaultRouting(peerID string, addrs []string, privKey string) func
 		routers = append(routers, &routinghelpers.ParallelRouter{
 			Router:       dhtRouting,
 			IgnoreError:  false,
-			Timeout:      5 * time.Minute, // https://github.com/ipfs/kubo/pull/9475#discussion_r1042501333
+			Timeout:      5 * time.Minute, // https://github.com/npumaster/minerva/pull/9475#discussion_r1042501333
 			ExecuteAfter: 0,
 		})
 
@@ -69,8 +69,8 @@ func ConstructDefaultRouting(peerID string, addrs []string, privKey string) func
 			}
 			routers = append(routers, &routinghelpers.ParallelRouter{
 				Router:       httpRouter,
-				IgnoreError:  true,             // https://github.com/ipfs/kubo/pull/9475#discussion_r1042507387
-				Timeout:      15 * time.Second, // 5x server value from https://github.com/ipfs/kubo/pull/9475#discussion_r1042428529
+				IgnoreError:  true,             // https://github.com/npumaster/minerva/pull/9475#discussion_r1042507387
+				Timeout:      15 * time.Second, // 5x server value from https://github.com/npumaster/minerva/pull/9475#discussion_r1042428529
 				ExecuteAfter: 0,
 			})
 		}

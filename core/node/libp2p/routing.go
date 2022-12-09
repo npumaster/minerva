@@ -7,13 +7,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ipfs/kubo/core/node/helpers"
-	irouting "github.com/ipfs/kubo/routing"
+	"github.com/npumaster/minerva/core/node/helpers"
+	irouting "github.com/npumaster/minerva/routing"
 
 	ds "github.com/ipfs/go-datastore"
 	offroute "github.com/ipfs/go-ipfs-routing/offline"
-	config "github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/repo"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	ddht "github.com/libp2p/go-libp2p-kad-dht/dual"
 	"github.com/libp2p/go-libp2p-kad-dht/fullrt"
@@ -24,6 +22,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/routing"
+	config "github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/repo"
 
 	"github.com/cenkalti/backoff/v4"
 	"go.uber.org/fx"

@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/ipfs/kubo/core/node/helpers"
+	"github.com/npumaster/minerva/core/node/helpers"
 )
 
 const discoveryConnTimeout = time.Second * 30

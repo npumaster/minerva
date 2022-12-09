@@ -8,8 +8,8 @@ import (
 	"time"
 
 	ns "github.com/ipfs/go-namesys"
-	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
-	ncmd "github.com/ipfs/kubo/core/commands/name"
+	cmdenv "github.com/npumaster/minerva/core/commands/cmdenv"
+	ncmd "github.com/npumaster/minerva/core/commands/name"
 
 	cidenc "github.com/ipfs/go-cidutil/cidenc"
 	cmds "github.com/ipfs/go-ipfs-cmds"

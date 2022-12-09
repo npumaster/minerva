@@ -13,8 +13,8 @@ import (
 	logging "github.com/ipfs/go-log"
 	pinclient "github.com/ipfs/go-pinning-service-http-client"
 
-	config "github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/core"
+	config "github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/core"
 )
 
 // mfslog is the logger for remote mfs pinning

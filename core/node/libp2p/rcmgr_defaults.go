@@ -8,8 +8,8 @@ import (
 	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
 	"github.com/pbnjay/memory"
 
-	"github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/core/node/libp2p/fd"
+	"github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/core/node/libp2p/fd"
 )
 
 // We are doing some magic when parsing config files (we are using a map[string]interface{} to compare config files).

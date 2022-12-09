@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	config "github.com/ipfs/kubo/config"
+	config "github.com/npumaster/minerva/config"
 )
 
 const (

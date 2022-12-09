@@ -8,15 +8,15 @@ import (
 	"github.com/ipfs/go-bitswap/network"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
 	exchange "github.com/ipfs/go-ipfs-exchange-interface"
-	"github.com/ipfs/kubo/config"
-	irouting "github.com/ipfs/kubo/routing"
 	"github.com/libp2p/go-libp2p/core/host"
+	"github.com/npumaster/minerva/config"
+	irouting "github.com/npumaster/minerva/routing"
 	"go.uber.org/fx"
 
-	"github.com/ipfs/kubo/core/node/helpers"
+	"github.com/npumaster/minerva/core/node/helpers"
 )
 
-// Docs: https://github.com/ipfs/kubo/blob/master/docs/config.md#internalbitswap
+// Docs: https://github.com/npumaster/minerva/blob/master/docs/config.md#internalbitswap
 const (
 	DefaultEngineBlockstoreWorkerCount = 128
 	DefaultTaskWorkerCount             = 8

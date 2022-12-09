@@ -13,8 +13,8 @@ import (
 
 	"github.com/ipfs/go-namesys"
 	"github.com/ipfs/go-namesys/republisher"
-	"github.com/ipfs/kubo/repo"
-	irouting "github.com/ipfs/kubo/routing"
+	"github.com/npumaster/minerva/repo"
+	irouting "github.com/npumaster/minerva/routing"
 )
 
 const DefaultIpnsCacheSize = 128

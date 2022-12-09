@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/ipfs/go-log"
-	version "github.com/ipfs/kubo"
+	version "github.com/npumaster/minerva"
 )
 
 const (

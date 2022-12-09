@@ -15,13 +15,13 @@ import (
 	iface "github.com/ipfs/interface-go-ipfs-core"
 	"github.com/ipfs/interface-go-ipfs-core/options"
 	ipath "github.com/ipfs/interface-go-ipfs-core/path"
-	"github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
-	"github.com/ipfs/kubo/core/node/libp2p"
-	"github.com/ipfs/kubo/repo/fsrepo"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations"
 	peer "github.com/libp2p/go-libp2p/core/peer"
+	"github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/core"
+	"github.com/npumaster/minerva/core/coreapi"
+	"github.com/npumaster/minerva/core/node/libp2p"
+	"github.com/npumaster/minerva/repo/fsrepo"
+	"github.com/npumaster/minerva/repo/fsrepo/migrations"
 )
 
 const (

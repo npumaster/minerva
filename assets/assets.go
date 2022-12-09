@@ -9,8 +9,8 @@ import (
 	gopath "path"
 	"strconv"
 
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
+	"github.com/npumaster/minerva/core"
+	"github.com/npumaster/minerva/core/coreapi"
 
 	"github.com/cespare/xxhash"
 	cid "github.com/ipfs/go-cid"

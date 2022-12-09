@@ -8,7 +8,7 @@ import (
 
 	keystore "github.com/ipfs/go-ipfs-keystore"
 	"github.com/ipfs/go-namesys"
-	"github.com/ipfs/kubo/tracing"
+	"github.com/npumaster/minerva/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 

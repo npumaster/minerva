@@ -19,9 +19,9 @@ import (
 	"go.opencensus.io/stats/view"
 	"go.uber.org/fx"
 
-	config "github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/core/node/helpers"
-	"github.com/ipfs/kubo/repo"
+	config "github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/core/node/helpers"
+	"github.com/npumaster/minerva/repo"
 )
 
 const NetLimitDefaultFilename = "limit.json"

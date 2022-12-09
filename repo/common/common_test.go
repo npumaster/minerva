@@ -3,7 +3,7 @@ package common
 import (
 	"testing"
 
-	"github.com/ipfs/kubo/thirdparty/assert"
+	"github.com/npumaster/minerva/thirdparty/assert"
 )
 
 func TestMapMergeDeepReturnsNew(t *testing.T) {

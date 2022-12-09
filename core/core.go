@@ -45,14 +45,14 @@ import (
 
 	"github.com/ipfs/go-namesys"
 	ipnsrp "github.com/ipfs/go-namesys/republisher"
-	"github.com/ipfs/kubo/core/bootstrap"
-	"github.com/ipfs/kubo/core/node"
-	"github.com/ipfs/kubo/core/node/libp2p"
-	"github.com/ipfs/kubo/fuse/mount"
-	"github.com/ipfs/kubo/p2p"
-	"github.com/ipfs/kubo/peering"
-	"github.com/ipfs/kubo/repo"
-	irouting "github.com/ipfs/kubo/routing"
+	"github.com/npumaster/minerva/core/bootstrap"
+	"github.com/npumaster/minerva/core/node"
+	"github.com/npumaster/minerva/core/node/libp2p"
+	"github.com/npumaster/minerva/fuse/mount"
+	"github.com/npumaster/minerva/p2p"
+	"github.com/npumaster/minerva/peering"
+	"github.com/npumaster/minerva/repo"
+	irouting "github.com/npumaster/minerva/routing"
 )
 
 var log = logging.Logger("core")

@@ -6,7 +6,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ipfs/kubo/thirdparty/assert"
+	"github.com/npumaster/minerva/thirdparty/assert"
 )
 
 func TestIsHidden(t *testing.T) {

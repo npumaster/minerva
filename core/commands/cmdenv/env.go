@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ipfs/kubo/commands"
-	"github.com/ipfs/kubo/core"
+	"github.com/npumaster/minerva/commands"
+	"github.com/npumaster/minerva/core"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	logging "github.com/ipfs/go-log"

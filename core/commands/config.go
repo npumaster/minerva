@@ -9,13 +9,13 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/repo"
-	"github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/npumaster/minerva/core/commands/cmdenv"
+	"github.com/npumaster/minerva/repo"
+	"github.com/npumaster/minerva/repo/fsrepo"
 
 	"github.com/elgris/jsondiff"
 	cmds "github.com/ipfs/go-ipfs-cmds"
-	config "github.com/ipfs/kubo/config"
+	config "github.com/npumaster/minerva/config"
 )
 
 // ConfigUpdateOutput is config profile apply command's output

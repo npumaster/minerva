@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/core/commands/cmdutils"
+	"github.com/npumaster/minerva/core/commands/cmdenv"
+	"github.com/npumaster/minerva/core/commands/cmdutils"
 
 	cid "github.com/ipfs/go-cid"
 	cidenc "github.com/ipfs/go-cidutil/cidenc"

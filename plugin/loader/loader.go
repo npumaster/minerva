@@ -8,14 +8,14 @@ import (
 	"runtime"
 	"strings"
 
-	config "github.com/ipfs/kubo/config"
-	cserialize "github.com/ipfs/kubo/config/serialize"
 	"github.com/ipld/go-ipld-prime/multicodec"
+	config "github.com/npumaster/minerva/config"
+	cserialize "github.com/npumaster/minerva/config/serialize"
 
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
-	plugin "github.com/ipfs/kubo/plugin"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/npumaster/minerva/core"
+	"github.com/npumaster/minerva/core/coreapi"
+	plugin "github.com/npumaster/minerva/plugin"
+	fsrepo "github.com/npumaster/minerva/repo/fsrepo"
 
 	logging "github.com/ipfs/go-log"
 	opentracing "github.com/opentracing/opentracing-go"

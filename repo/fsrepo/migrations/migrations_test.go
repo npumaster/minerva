@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	config "github.com/ipfs/kubo/config"
+	config "github.com/npumaster/minerva/config"
 )
 
 func TestFindMigrations(t *testing.T) {

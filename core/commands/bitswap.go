@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
-	e "github.com/ipfs/kubo/core/commands/e"
+	cmdenv "github.com/npumaster/minerva/core/commands/cmdenv"
+	e "github.com/npumaster/minerva/core/commands/e"
 
 	humanize "github.com/dustin/go-humanize"
 	bitswap "github.com/ipfs/go-bitswap"

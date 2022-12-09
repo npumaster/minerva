@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"syscall"
 
-	commands "github.com/ipfs/kubo/commands"
-	core "github.com/ipfs/kubo/core"
-	coreapi "github.com/ipfs/kubo/core/coreapi"
-	corehttp "github.com/ipfs/kubo/core/corehttp"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
+	commands "github.com/npumaster/minerva/commands"
+	core "github.com/npumaster/minerva/core"
+	coreapi "github.com/npumaster/minerva/core/coreapi"
+	corehttp "github.com/npumaster/minerva/core/corehttp"
+	fsrepo "github.com/npumaster/minerva/repo/fsrepo"
 
 	fsnotify "github.com/fsnotify/fsnotify"
 	files "github.com/ipfs/go-ipfs-files"

@@ -40,9 +40,9 @@ import (
 	madns "github.com/multiformats/go-multiaddr-dns"
 
 	"github.com/ipfs/go-namesys"
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/node"
-	"github.com/ipfs/kubo/repo"
+	"github.com/npumaster/minerva/core"
+	"github.com/npumaster/minerva/core/node"
+	"github.com/npumaster/minerva/repo"
 )
 
 type CoreAPI struct {

@@ -3,13 +3,13 @@ package libp2p
 import (
 	"fmt"
 
-	"github.com/ipfs/kubo/config"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/metrics"
 	quic "github.com/libp2p/go-libp2p/p2p/transport/quic"
 	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
 	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
 	webtransport "github.com/libp2p/go-libp2p/p2p/transport/webtransport"
+	"github.com/npumaster/minerva/config"
 
 	"go.uber.org/fx"
 )

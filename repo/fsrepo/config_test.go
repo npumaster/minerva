@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ipfs/kubo/plugin/loader"
-	"github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/npumaster/minerva/plugin/loader"
+	"github.com/npumaster/minerva/repo/fsrepo"
 
-	"github.com/ipfs/kubo/config"
+	"github.com/npumaster/minerva/config"
 )
 
 // note: to test sorting of the mountpoints in the disk spec they are

@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	ipfspath "github.com/ipfs/go-path"
-	"github.com/ipfs/kubo/assets"
+	"github.com/npumaster/minerva/assets"
 )
 
 // structs for directory listing

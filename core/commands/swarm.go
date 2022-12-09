@@ -13,12 +13,12 @@ import (
 	"time"
 
 	files "github.com/ipfs/go-ipfs-files"
-	"github.com/ipfs/kubo/commands"
-	"github.com/ipfs/kubo/config"
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/core/node/libp2p"
-	"github.com/ipfs/kubo/repo"
-	"github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/npumaster/minerva/commands"
+	"github.com/npumaster/minerva/config"
+	"github.com/npumaster/minerva/core/commands/cmdenv"
+	"github.com/npumaster/minerva/core/node/libp2p"
+	"github.com/npumaster/minerva/repo"
+	"github.com/npumaster/minerva/repo/fsrepo"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	inet "github.com/libp2p/go-libp2p/core/network"

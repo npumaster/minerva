@@ -13,9 +13,9 @@ import (
 	"github.com/ipfs/go-ipfs-provider/simple"
 	"go.uber.org/fx"
 
-	"github.com/ipfs/kubo/core/node/helpers"
-	"github.com/ipfs/kubo/repo"
-	irouting "github.com/ipfs/kubo/routing"
+	"github.com/npumaster/minerva/core/node/helpers"
+	"github.com/npumaster/minerva/repo"
+	irouting "github.com/npumaster/minerva/routing"
 )
 
 // SIMPLE
