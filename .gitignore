@@ -1,36 +1,16 @@
-# ipfs can generate profiling dump files
-*.cpuprof
-*.memprof
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-*.swp
-.ipfsconfig
-*.out
-*.coverprofile
+# Test binary, built with `go test -c`
 *.test
-*.orig
-*~
 
-coverage.txt
-gx-workspace-update.json
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
 
-.ipfs
-bin/gx
-bin/protoc-*
-bin/gx*
-bin/tmp
-bin/gocovmerge
-bin/cover
-
-
-vendor
-.tarball
-go-ipfs-source.tar.gz
-docs/examples/go-ipfs-as-a-library/example-folder/Qm*
-/test/sharness/t0054-dag-car-import-export-data/*.car
-
-# ignore build output from snapcraft
-/ipfs_*.snap
-/parts
-/stage
-/prime
-/.idea
+# Dependency directories (remove the comment below to include it)
+# vendor/
+.idea/
